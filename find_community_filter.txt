@@ -1,0 +1,4 @@
+! twitterの"コミュニティを探す"を消すフィルタ 2024-02-07
+twitter.com##div[aria-label="タイムライン: タイムラインを検索"] > div > div:has(h2:has-text(コミュニティを探す))
+twitter.com##div[aria-label="タイムライン: タイムラインを検索"] > div > div:has(div[aria-label="タイムライン: Carousel"])
+twitter.com##div[aria-label="タイムライン: タイムラインを検索"] > div > div:has(a[href="/i/communities/suggested"])
